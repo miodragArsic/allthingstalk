@@ -18,9 +18,6 @@ html {
     font-size: 10px;
     color: var(--main-font-color);
 }
-body {
-    overflow-x: hidden;
-}
 section {
     padding: 3em 0;
 }
