@@ -888,7 +888,6 @@ footer {
         flex-direction: row; 
         text-align: left; 
         margin-top: 10em;
-        margin: 0 3em;
     }
     .title-container {
         width: 100%;
@@ -909,8 +908,8 @@ footer {
         display: flex;
         align-content: center;
         justify-content: space-between;
-        margin-left: 4em;
-        margin-right: 11em;
+        margin-left: 2em;
+        margin-right: 9em;
         margin-bottom: 0;
     }
     .bottom-list img {
