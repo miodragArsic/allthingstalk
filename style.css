@@ -328,9 +328,9 @@ header {
     HERO: MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media all and (max-width: 375px) {
+@media all and (min-width: 320px) {
     .container {
-        width: 375px;
+        width: 100%;
     }   
     .hero {
         height: 90vh;
@@ -341,7 +341,7 @@ header {
     }
     .headline {
         width: 100%;
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 1.5;
         margin: 0 auto;
     }
@@ -484,9 +484,9 @@ main {
 /* --------------------------------------------------
     MAIN: MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media all and (max-width: 375px) {
+@media all and (min-width: 320px) {
     .container {
-        width: 375px;
+        width: 100%;
     }
     .global-headline {
         padding-bottom: 2em;
@@ -647,7 +647,7 @@ footer {
 /* --------------------------------------------------
     FOOTER: MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media all and (min-width: 375px) {
+@media all and (min-width: 320px) {
     .container {
         width: 100%;
     }
@@ -669,7 +669,7 @@ footer {
         margin: 0 auto;
     }
     .title-container {
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
     }
     .title-container-1 {
